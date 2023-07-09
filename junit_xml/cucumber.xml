@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="58.143">
+<testcase classname="Digital Pulse" name="Digital pulse home page" time="14.496">
+<system-out><![CDATA[Given I navigate to the PwC Digital Pulse website...........................passed
+When User opens URL "https://www.pwc.com.au/digitalpulse.html"..............passed
+When I am viewing the Home page.............................................passed
+Then I am presented with 3 columns of articles..............................passed
+And The left column is displaying 2 articles................................passed
+And The middle column is displaying 1 articles..............................passed
+And The right column is displaying 4 articles...............................passed
+And close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Digital Pulse" name="Digital pulse subscription" time="26.592">
+<system-out><![CDATA[Given I navigate to the PwC Digital Pulse website...........................passed
+When User opens URL "https://www.pwc.com.au/digitalpulse.html"..............passed
+And I am viewing the Home page..............................................passed
+When I click on the Subscribe navigation link...............................passed
+Then I am taken to the Subscribe page.......................................passed
+And I am presented with the below fields....................................passed
+And close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Digital Pulse" name="Digital pulse magnifying glass" time="16.675">
+<system-out><![CDATA[Given I navigate to the PwC Digital Pulse website...........................passed
+When User opens URL "https://www.pwc.com.au/digitalpulse.html"..............passed
+When I click on the Magnifying glass icon to perform a search...............passed
+And I enter the text 'Single page applications'.............................passed
+Then I am taken to the search results page..................................passed
+And I am presented with at least 1 search result............................passed
+And close browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

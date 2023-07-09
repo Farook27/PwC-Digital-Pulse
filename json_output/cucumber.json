@@ -1,0 +1,364 @@
+[
+  {
+    "line": 19,
+    "elements": [
+      {
+        "start_timestamp": "2023-07-09T18:20:37.040Z",
+        "line": 21,
+        "name": "Digital pulse home page",
+        "description": "",
+        "id": "digital-pulse;digital-pulse-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3463000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I navigate to the PwC Digital Pulse website",
+            "match": {
+              "location": "step_def_Feature.DigitalPulseHome.i_navigate_to_the_pw_c_digital_pulse_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8760000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User opens URL \"https://www.pwc.com.au/digitalpulse.html\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.pwc.com.au/digitalpulse.html\"",
+                  "offset": 15
+                }
+              ],
+              "location": "step_def_Feature.DigitalPulseHome.user_opens_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 101000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I am viewing the Home page",
+            "match": {
+              "location": "step_def_Feature.DigitalPulseHome.i_am_viewing_the_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 350000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I am presented with 3 columns of articles",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 20
+                }
+              ],
+              "location": "step_def_Feature.DigitalPulseHome.i_am_presented_with_columns_of_articles(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 95000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "The left column is displaying 2 articles",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 30
+                }
+              ],
+              "location": "step_def_Feature.DigitalPulseHome.the_left_column_is_displaying_articles(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "The middle column is displaying 1 articles",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 32
+                }
+              ],
+              "location": "step_def_Feature.DigitalPulseHome.the_middle_column_is_displaying_articles(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 332000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "The right column is displaying 4 articles",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 31
+                }
+              ],
+              "location": "step_def_Feature.DigitalPulseHome.the_right_column_is_displaying_articles(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1196000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "close browser",
+            "match": {
+              "location": "step_def_Feature.DigitalPulseHome.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-07-09T18:20:51.562Z",
+        "line": 31,
+        "name": "Digital pulse subscription",
+        "description": "",
+        "id": "digital-pulse;digital-pulse-subscription",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1873000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I navigate to the PwC Digital Pulse website",
+            "match": {
+              "location": "step_def_Feature.DigitalPulseHome.i_navigate_to_the_pw_c_digital_pulse_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4873000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User opens URL \"https://www.pwc.com.au/digitalpulse.html\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.pwc.com.au/digitalpulse.html\"",
+                  "offset": 15
+                }
+              ],
+              "location": "step_def_Feature.DigitalPulseHome.user_opens_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 71000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I am viewing the Home page",
+            "match": {
+              "location": "step_def_Feature.DigitalPulseHome.i_am_viewing_the_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5979000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I click on the Subscribe navigation link",
+            "match": {
+              "location": "step_def_Feature.DigitalPulseHome.i_click_on_the_subscribe_navigation_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 53000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I am taken to the Subscribe page",
+            "match": {
+              "location": "step_def_Feature.DigitalPulseHome.i_am_taken_to_the_subscribe_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12547000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I am presented with the below fields",
+            "match": {
+              "location": "step_def_Feature.DigitalPulseHome.i_am_presented_with_the_below_fields()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1188000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "close browser",
+            "match": {
+              "location": "step_def_Feature.DigitalPulseHome.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-07-09T18:21:18.182Z",
+        "line": 40,
+        "name": "Digital pulse magnifying glass",
+        "description": "",
+        "id": "digital-pulse;digital-pulse-magnifying-glass",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1920000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I navigate to the PwC Digital Pulse website",
+            "match": {
+              "location": "step_def_Feature.DigitalPulseHome.i_navigate_to_the_pw_c_digital_pulse_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6589000000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User opens URL \"https://www.pwc.com.au/digitalpulse.html\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.pwc.com.au/digitalpulse.html\"",
+                  "offset": 15
+                }
+              ],
+              "location": "step_def_Feature.DigitalPulseHome.user_opens_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3206000000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I click on the Magnifying glass icon to perform a search",
+            "match": {
+              "location": "step_def_Feature.DigitalPulseHome.i_click_on_the_magnifying_glass_icon_to_perform_a_search()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 360000000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I enter the text \u0027Single page applications\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Single page applications\u0027",
+                  "offset": 17
+                }
+              ],
+              "location": "step_def_Feature.DigitalPulseHome.i_enter_the_text(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2677000000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I am taken to the search results page",
+            "match": {
+              "location": "step_def_Feature.DigitalPulseHome.i_am_taken_to_the_search_results_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 627000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I am presented with at least 1 search result",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 29
+                }
+              ],
+              "location": "step_def_Feature.DigitalPulseHome.i_am_presented_with_at_least_search_result(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1285000000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "close browser",
+            "match": {
+              "location": "step_def_Feature.DigitalPulseHome.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Digital Pulse",
+    "description": "",
+    "id": "digital-pulse",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature/DigitalPulseHome.feature",
+    "tags": []
+  }
+]
